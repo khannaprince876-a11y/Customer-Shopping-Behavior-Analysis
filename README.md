@@ -285,44 +285,6 @@ Strategic actions based on findings:
 
 ---
 
-## 🚀 How to Run This Project
-
-### ✅ Prerequisites
-
-* Python 3.x
-* PostgreSQL installed and running
-* Power BI Desktop
-* Required Python libraries:
-
-  ```bash
-  pip install pandas sqlalchemy psycopg2-binary
-  ```
-
-### ✅ Setup & Execution
-
-1️⃣ Create a PostgreSQL database → `customer_behaviour`
-2️⃣ Update credentials in `main.py`
-3️⃣ Place `customer_shopping_behavior.csv` in the same folder
-4️⃣ Run the pipeline:
-
-```bash
-python main.py
-```
-
-✅ Automatically loads cleaned data into PostgreSQL
-
-### ✅ SQL Analysis
-
-Run queries from `analysis.sql` in pgAdmin or DBeaver
-
-### ✅ Dashboard
-
-Open: `customer_behaviour.pbix` in Power BI Desktop
-
-* Update connection path when prompted
-
----
-
 ## 📁 Project Structure
 
 ```
